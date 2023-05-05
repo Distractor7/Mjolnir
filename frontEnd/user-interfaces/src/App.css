@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+}
+
+.company-logo {
+  margin-top: 40px;
+}
+
+/* Toggle Button Styles */
+
+.toggleLogins {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.toggleLogins button {
+  background: transparent;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+  margin-right: 50px;
+}
+
+.toggleLogins button:last-child {
+  margin-right: 0;
+}
+
+.toggleLogins button:not(.activeButton):hover {
+  background: #ffffff;
+  color: #b33cf8;
+}
+
+.toggleLogins .activeButton {
+  background-color: #000000;
+  color: white;
+}
+
+/* Login Component Styles */
+.login-container {
+  margin: 20px 0;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.login-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container label {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.login-container input {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.login-container button {
+  background: transparent;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+  margin-top: 20px;
+}
+
+.login-container button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.events-div {
+  flex: 1;
+  background-color: #b33cf8;
+  width: 100%;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.events-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Manager Dashboard */
+/* .content1 {
+  margin-left: 20px;
+  margin-right: 20px;
+} */
+
+.event-item {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.event-buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.event-item h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.event-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.event-item p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.line-up {
+  font-size: 16px;
+  color: #333;
+}
+
+.line-up ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.toggle-buttons button {
+  margin: 0 10px;
+}
+/* Common Styles */
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  background-color: beige;
+}
+
+/* Artist Dashboard Styles .ad-profile-header {
+  margin-left: 50px;
+} */
+
+.ad-events-header {
+  margin-right: 1000px;
+}
+
+/* Manager Dashboard Styles */
+.md-profile-header {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.md-events-header {
+  margin-right: 1400px;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.DashHeading {
+  margin-right: 1500px;
+  margin-bottom: 20px;
+}
+
+.manager-profile {
+  background-color: beige;
+}
+
+.create-profile-box {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.create-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.toggle-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  margin: 0 10px;
+}
+/* GRID EVENTS*/
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  background-color: #f0f0f0;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-buttons button:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.dashboard-row {
+  display: flex;
+  width: 100%;
+}
+
+.create-section {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-container {
+  display: flex;
+  width: 100%;
+}
+
+.events-div {
+  width: 80%;
+}
+/* Create new Event */
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.md-profile-header {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+form button[type="submit"] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #0077c2;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+  background-color: #006aa9;
+}
+
+/* Edit Modal */
+
+.event.event-image {
+  background-color: #000000;
+}
