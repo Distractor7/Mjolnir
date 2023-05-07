@@ -110,7 +110,7 @@ function ManagerDashboard(props) {
       );
       setEvents(response.data);
     } catch (err) {
-      console.error(err);
+      console.log(err);
     }
   }
 

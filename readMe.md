@@ -14,7 +14,7 @@ This web application is designed for managing events. The app allows both manage
 - ReactJS for front-end development
 - Node.js and Express for back-end development
 - MongoDB for data storage
-- Express for routing and back end.
+- Express for routing and back-end development
 
 ## Getting Started
 
@@ -72,24 +72,12 @@ To ensure the security of this app, the following measures have been taken:
 
 ## Deployment
 
-The app has been deployed on Heroku, with the back-end and front-end deployed separately. The back-end is deployed at `https://event-management-backend.herokuapp.com` and the front-end is deployed at `https://event-management-frontend.herokuapp.com`.
+The app has been deployed on Netifly, the back-end has not been deployed anywhere as I'm not certain of where to deploy back end sites for free.
 
 ## Snapshots and Unit Tests
 
 The app has been appropriately tested, with one snapshot test and unit tests for both the front-end and back-end of the application.
 
-## File Structure
-
-The file structure of the project is well organised and easy to understand and use.
-
 ## Code Documentation
 
 The code is well documented with appropriate comments.
-
-## Code Readability
-
-The code adheres to Google's style guide about indentation, meaningful variable and component names, etc.
-
-## Code Modularity
-
-The code is modular to make testing, debugging, code reuse and maintenance of your app easier.

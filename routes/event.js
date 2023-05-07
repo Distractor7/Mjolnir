@@ -29,7 +29,7 @@ router.post(
 );
 
 // Read all events endpoint
-router.get("/readEvents", async (req, res) => {
+router.get("http://localhost:8080/event/readEvents", async (req, res) => {
   try {
     // Finds all events
     const events = await Event.find();
